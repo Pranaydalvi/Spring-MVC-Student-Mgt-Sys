@@ -73,4 +73,4 @@ o	Implements StuDaoInterface using Hibernate's SessionFactory to perform databas
 
 ## Contact
 
-For questions or feedback, please contact [Pranay Dalvi](mailto:pranaydalvi122@gmail.com).
+For questions or feedback, please contact [pranaydalvi122@gmail.com](mailto:pranaydalvi122@gmail.com).
