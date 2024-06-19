@@ -48,7 +48,7 @@ o	Handles login (/log) using @RequestParam to validate credentials against store
 o	Supports CRUD operations (/del, /edit, /update) for students.
 # Service (StuServiceIMPL):
 o	Implements StuServiceInterface providing methods to interact with DAO layer.
-•	DAO (StuDaoIMPL):
+o	DAO (StuDaoIMPL):
 o	Implements StuDaoInterface using Hibernate's SessionFactory to perform database operations.
 
 ## View Layer (JSP Pages)
