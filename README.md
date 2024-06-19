@@ -40,7 +40,8 @@ Here's the complete project structure for a simple student management system in 
 - JSP/CSS/JavaScript
 
 ## Spring MVC Components
-# DispatcherServlet Configuration: Configured in web.xml to handle all requests (/).
+# DispatcherServlet Configuration: 
+o	Configured in web.xml to handle all requests (/).
 # Controller (HomeController):
 o	Handles registration (/register) using @ModelAttribute to bind form data to Student object.
 o	Handles login (/log) using @RequestParam to validate credentials against stored student data.
