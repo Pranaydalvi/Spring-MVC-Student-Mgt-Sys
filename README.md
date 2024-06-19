@@ -9,6 +9,7 @@ A web-based Student Management System using Spring MVC and Hibernate.
 - [View Layer (JSP Pages)](#View-Layer-(JSP-Pages))
 - [Hibernate Configuration](#Hibernate-Configuration)
 - [Features](#features)
+- [ScreenShotes](#ScreenShotes)
 - [Contact](#contact)
 
 Here's the complete project structure for a simple student management system in Java using Spring Framework, Hibernate, and JSP for the views. This structure includes the model, controller, service, and DAO layers.
@@ -70,6 +71,10 @@ o	Implements StuDaoInterface using Hibernate's SessionFactory to perform databas
 - CRUD operations for student records
 - Administrative actions (view, edit, delete)
 - Pagination and sorting of student records
+
+## ScreenShotes
+
+
 
 ## Contact
 
