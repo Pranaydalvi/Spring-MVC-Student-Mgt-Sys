@@ -74,8 +74,8 @@ o	Implements StuDaoInterface using Hibernate's SessionFactory to perform databas
 
 ## ScreenShotes
 
-![home page](capture1.PNG)
-![Screenshot 2](/ca[ture2.PNG)
+![home page](Capture1.PNG)
+![Screenshot 2](/Capture2.PNG)
 
 ## Contact
 
