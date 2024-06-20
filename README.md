@@ -73,8 +73,9 @@ o	Implements StuDaoInterface using Hibernate's SessionFactory to perform databas
 - Pagination and sorting of student records
 
 ## ScreenShotes
-
+# Home Page
 ![home page](Capture1.PNG)
+# Login Page
 ![Screenshot 2](/Capture2.PNG)
 
 ## Contact
