@@ -48,10 +48,21 @@
         background-color: #45a049;
     }
 </style>
+<script type="text/javascript">
+function checkPassword() {
+    var password = document.getElementById("password").value;
+    var confirmPassword = document.getElementById("confirm_password").value;
+    if (password !== confirmPassword) {
+        alert("Passwords do not match. Please try again.");
+        return false;
+    }
+    return true;
+}
+</script>
 </head>
 <body>
 <h1>Set Your Password</h1>
-<form action="register" method="post">
+<form name="setpassword" action="register" method="post" onsubmit="return checkPassword()">
     <input type="hidden" name="rollNo" value="<%= request.getParameter("rollNo") %>">
     <input type="hidden" name="name" value="<%= request.getParameter("name") %>">
     <input type="hidden" name="mnumber" value="<%= request.getParameter("mnumber") %>">
@@ -61,9 +72,9 @@
     <input type="hidden" name="course" value="<%= request.getParameter("course") %>">
     <input type="hidden" name="department" value="<%= request.getParameter("department") %>">
     <label>Password:</label>
-    <input type="password" name="password" placeholder="Enter your password" required>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
     <label>Confirm Password:</label>
-    <input type="password" name="confirm_password" placeholder="Confirm your password" required>
+    <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required>
     <button type="submit">Set Password</button>
 </form>
 </body>
